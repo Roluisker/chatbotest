@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hola", "¿Como estas?", "Estas?","Hey","Hola", "Hola", "Buen dia"],
+         "responses": ["¿Como estas?, bien, gracias por preguntar", "Hola!, un gusto vernos de nuevo", "Hola, como puedo ayudarte?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Adios", "Nos vemos", "Chao", "Bueno hablar contigo", "Hablamos despues"],
+         "responses": ["Adios que estes muy bien!", "Que tengas un buen dia!", "Chao!, nos vemos."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Gracias", "Muchas gracias!", "De mucha ayuda gracias", "Genial, gracias", "Gracias por ayudarme"],
+         "responses": ["De nada!", "Cuando quieras!", "No hay problema"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Disculpa, no te pude entender", "Podrias darme mas informacion", "seguro, ya lo pude entender"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Como me puedes ayudar?", "Que puedo hacer?", "Que ayuda me puedes dar?", "Como puedo ayudar?", "Que ofrece?", "Ayuda"],
+         "responses": ["Con informacion sobre tu entorno", "mmm ya se!, te gusta jugar?", "Que necesitas?"],
+         "context": [""]
+        }
+   ]
+}
